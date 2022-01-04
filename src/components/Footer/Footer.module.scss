@@ -1,0 +1,27 @@
+.wrapper {
+    padding: 50px 0;
+    background-color: #141523;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        color: #fff;
+        text-transform: uppercase;
+        margin: 25px 0 0;
+    }
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #9525fb, #ff70a4);
+    padding: 25px;
+
+    img {
+        max-width: 50px;
+    }
+}

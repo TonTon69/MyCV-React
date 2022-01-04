@@ -26,7 +26,7 @@ export default function Header() {
             </svg>
             <div className={styles.heading}>
                 i am
-                <span className={styles.headingHot}> fronted developer</span>
+                <span className={styles.headingHot}> g*od boy</span>
             </div>
         </div>
     );
