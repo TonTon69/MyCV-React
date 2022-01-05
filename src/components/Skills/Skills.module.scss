@@ -1,6 +1,6 @@
 .wrapper {
     background-color: #0e0c28;
-    padding: 50px;
+    padding: 50px 0;
 
     h3 {
         font-size: 40px;
@@ -21,6 +21,12 @@
             -webkit-background-clip: text;
         }
     }
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 50px;
+    margin: 0 auto;
 }
 
 .content {
@@ -58,11 +64,13 @@
 
 @media (max-width: 1024px) {
     .wrapper {
-        padding: 50px 20px;
-
         h3 {
             font-size: 25px;
         }
+    }
+
+    .container {
+        padding: 0 20px;
     }
 
     .content {
