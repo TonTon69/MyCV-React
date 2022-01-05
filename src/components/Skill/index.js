@@ -1,8 +1,8 @@
-import styles from "./Skills.module.scss";
-import Heading from "../../components/Heading";
+import styles from "./Skill.module.scss";
+import Heading from "../Heading";
 import AstronautMoon from "../../assets/images/astronaut_moon.png";
 
-export default function Skills() {
+export default function Skill() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>

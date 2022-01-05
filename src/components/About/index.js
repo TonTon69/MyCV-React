@@ -1,5 +1,6 @@
 import styles from "./About.module.scss";
 import Heading from "../../components/Heading";
+import resumeData from "../../utils/resumeData";
 
 export default function About() {
     return (
@@ -25,12 +26,8 @@ export default function About() {
                             <strong> understanding</strong>, always
                             <strong> help</strong>.
                         </p>
-                        <p>
-                            I love to play <strong>chess</strong> and
-                            <strong> travel</strong>.
-                        </p>
                         <a
-                            href="https://www.facebook.com/humiho.69"
+                            href={resumeData.facebook}
                             className={styles.leftLink}
                             target="_blank"
                             rel="noopener noreferrer"

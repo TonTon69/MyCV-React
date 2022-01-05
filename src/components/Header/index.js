@@ -1,6 +1,7 @@
 import styles from "./Header.module.scss";
 import Logo from "../../assets/images/logo.png";
 import ReadingAstronaut from "../../assets/images/reading_astronaut.png";
+import resumeData from "../../utils/resumeData";
 
 export default function Header() {
     return (
@@ -15,7 +16,7 @@ export default function Header() {
             <svg viewBox="0 0 900 100" className={styles.svgText}>
                 <symbol id="h-text">
                     <text text-anchor="middle" x="50%" y="50%" dy=".35em">
-                        HOANG
+                        {resumeData.name}
                     </text>
                 </symbol>
                 <use xlinkHref="#h-text" className={styles.hText}></use>
@@ -26,7 +27,7 @@ export default function Header() {
             </svg>
             <div className={styles.heading}>
                 i am
-                <span className={styles.headingHot}> g*od boy</span>
+                <span className={styles.headingHot}> {resumeData.title}</span>
             </div>
         </div>
     );

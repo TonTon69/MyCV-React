@@ -1,15 +1,17 @@
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Skills from "./components/Skills";
+import Skill from "./components/Skill";
 import About from "./components/About";
+import Project from "./components/Project";
 
 function App() {
     return (
         <div className="App">
             <Header />
             <About />
-            <Skills />
+            <Project />
+            <Skill />
             <Footer />
         </div>
     );
