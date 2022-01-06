@@ -24,14 +24,20 @@ export default function Project() {
                             onClick={() => setProjectDialog(project)}
                         >
                             <Card
+                                title={project.title}
                                 img={project.image}
-                                description={project.description}
                                 titleBtn={"View more"}
                             />
                         </div>
                     ))}
 
-                    {/* <Dialog /> */}
+                    <Dialog
+                        show={projectDialog}
+                        onClose={() => setProjectDialog(false)}
+                        title={projectDialog.title}
+                        description={projectDialog.description}
+                        image={projectDialog.image}
+                    />
                 </div>
             </div>
         </div>

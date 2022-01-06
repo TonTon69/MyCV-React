@@ -8,91 +8,91 @@
     color: white;
     height: 100vh;
     position: relative;
-}
 
-.logo {
-    max-width: 150px;
-    margin-bottom: 20px;
-}
-
-.hello {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-
-    img {
-        max-width: 200px;
-        animation: k1 2s linear infinite alternate forwards;
+    .logo {
+        max-width: 150px;
+        margin-bottom: 20px;
     }
 
-    @keyframes k1 {
-        100% {
-            transform: translateY(10px);
-        }
-    }
-}
+    .hello {
+        position: absolute;
+        top: 100px;
+        left: 100px;
 
-.heading {
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: bold;
-
-    &Hot {
-        color: #9a86fd;
-    }
-}
-
-.svgText {
-    margin: 30px 0;
-
-    .hText {
-        text-transform: uppercase;
-        font-size: 100px;
-        font-weight: bold;
-        fill: none;
-        stroke-width: 2;
-        stroke-linejoin: round;
-        stroke-dasharray: 90 310;
-        stroke-dashoffset: 0;
-        -webkit-animation: stroke 8s infinite linear;
-        animation: stroke 8s infinite linear;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-
-        &:nth-child(5n + 1) {
-            stroke: #ff6bcb;
-            -webkit-animation-delay: -2s;
-            animation-delay: -2s;
+        img {
+            max-width: 200px;
+            animation: k1 2s linear infinite alternate forwards;
         }
 
-        &:nth-child(5n + 2) {
-            stroke: #ffb86c;
-            -webkit-animation-delay: -4s;
-            animation-delay: -4s;
-        }
-
-        &:nth-child(5n + 3) {
-            stroke: #fff;
-            -webkit-animation-delay: -6s;
-            animation-delay: -6s;
-        }
-
-        &:nth-child(5n + 4) {
-            stroke: #2cccff;
-            -webkit-animation-delay: -8s;
-            animation-delay: -8s;
-        }
-
-        &:nth-child(5n + 5) {
-            stroke: #20e3b2;
-            -webkit-animation-delay: -10s;
-            animation-delay: -10s;
-        }
-
-        @keyframes stroke {
+        @keyframes k1 {
             100% {
-                stroke-dashoffset: -400;
+                transform: translateY(10px);
+            }
+        }
+    }
+
+    .heading {
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: bold;
+
+        &Hot {
+            color: #9a86fd;
+        }
+    }
+
+    .svgText {
+        margin: 30px 0;
+
+        .hText {
+            text-transform: uppercase;
+            font-size: 100px;
+            font-weight: bold;
+            fill: none;
+            stroke-width: 2;
+            stroke-linejoin: round;
+            stroke-dasharray: 90 310;
+            stroke-dashoffset: 0;
+            -webkit-animation: stroke 8s infinite linear;
+            animation: stroke 8s infinite linear;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
+            &:nth-child(5n + 1) {
+                stroke: #ff6bcb;
+                -webkit-animation-delay: -2s;
+                animation-delay: -2s;
+            }
+
+            &:nth-child(5n + 2) {
+                stroke: #ffb86c;
+                -webkit-animation-delay: -4s;
+                animation-delay: -4s;
+            }
+
+            &:nth-child(5n + 3) {
+                stroke: #fff;
+                -webkit-animation-delay: -6s;
+                animation-delay: -6s;
+            }
+
+            &:nth-child(5n + 4) {
+                stroke: #2cccff;
+                -webkit-animation-delay: -8s;
+                animation-delay: -8s;
+            }
+
+            &:nth-child(5n + 5) {
+                stroke: #20e3b2;
+                -webkit-animation-delay: -10s;
+                animation-delay: -10s;
+            }
+
+            @keyframes stroke {
+                100% {
+                    stroke-dashoffset: -400;
+                }
             }
         }
     }
@@ -102,22 +102,22 @@
     .wrapper {
         padding: 50px 0;
         height: auto;
-    }
 
-    .hello {
-        top: 10px;
-        left: 10px;
+        .hello {
+            top: 10px;
+            left: 10px;
 
-        img {
+            img {
+                max-width: 100px;
+            }
+        }
+
+        .logo {
             max-width: 100px;
         }
-    }
 
-    .logo {
-        max-width: 100px;
-    }
-
-    .heading {
-        font-size: 25px;
+        .heading {
+            font-size: 25px;
+        }
     }
 }
