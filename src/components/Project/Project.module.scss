@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+.item {
+    position: relative;
+}
+
 .content {
     display: grid;
     grid-gap: 30px;
