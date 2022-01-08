@@ -9,7 +9,7 @@
 
         .content {
             display: grid;
-            grid-gap: 30px;
+            grid-gap: 50px;
             grid-template-columns: repeat(3, 1fr);
 
             .item {
@@ -20,6 +20,7 @@
                 color: #fff;
                 display: flex;
                 align-items: center;
+                transition: all 0.2s linear;
 
                 &Info {
                     padding: 0 20px;
@@ -35,6 +36,22 @@
                         font-size: 14px;
                     }
                 }
+
+                &:hover {
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        .container {
+            padding: 0 20px;
+
+            .content {
+                grid-template-columns: 100%;
             }
         }
     }

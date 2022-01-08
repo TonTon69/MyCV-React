@@ -9,7 +9,7 @@
 
         .content {
             display: grid;
-            grid-gap: 30px;
+            grid-gap: 50px;
             grid-template-columns: repeat(3, 1fr);
 
             .item {
@@ -20,11 +20,13 @@
 }
 
 @media (max-width: 1024px) {
-    .container {
-        padding: 0 20px;
+    .wrapper {
+        .container {
+            padding: 0 20px;
 
-        .content {
-            grid-template-columns: 100%;
+            .content {
+                grid-template-columns: 100%;
+            }
         }
     }
 }

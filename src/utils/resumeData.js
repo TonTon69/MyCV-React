@@ -1,6 +1,5 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
-import NewspaperIcon from "@mui/icons-material/Newspaper";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
