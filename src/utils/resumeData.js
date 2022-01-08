@@ -25,4 +25,25 @@ export default {
             ],
         },
     ],
+    awards: [
+        {
+            image: "https://play-lh.googleusercontent.com/BbrsyoCg_QXlUmleablXnyR51RkQCE3RCjFhiNZkDGF3QM340ne7tuxP3E1F-cWxA3Q",
+            bgImgWrapper: "linear-gradient(to right bottom, #5bf6a9, #422eee)",
+            title: "Sports festival - Chess",
+            description: "2 times won first prize (2019 & 2020)",
+        },
+        {
+            image: "https://www.blackbeltathome.com/wp-content/uploads/5-Qualities-of-Best-Students.jpg",
+            bgImgWrapper:
+                "linear-gradient( to right bottom, rgb(32, 227, 178), rgb(0, 174, 253))",
+            title: "Good 5 students",
+            description: "Faculty level (2020)",
+        },
+        {
+            image: "https://mmgroup.vn/wp-content/uploads/2021/07/phat-trien-web-site.jpg",
+            bgImgWrapper: "linear-gradient(to right bottom, #33cdf9, #2979ff)",
+            title: "IT Got Talent Hutech",
+            description: "Second prize - Website application board (2021)",
+        },
+    ],
 };
