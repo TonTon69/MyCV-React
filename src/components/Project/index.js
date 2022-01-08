@@ -34,9 +34,7 @@ export default function Project() {
                     <Dialog
                         show={projectDialog}
                         onClose={() => setProjectDialog(false)}
-                        title={projectDialog.title}
-                        description={projectDialog.description}
-                        image={projectDialog.image}
+                        shouldCloseOnOverlayClick={true}
                     />
                 </div>
             </div>

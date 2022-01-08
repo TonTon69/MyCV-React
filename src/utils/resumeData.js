@@ -1,3 +1,7 @@
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
+import NewspaperIcon from "@mui/icons-material/Newspaper";
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
     name: "Hoang",
@@ -7,17 +11,18 @@ export default {
         {
             title: "Website to support high school learning",
             image: "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/p960x960/269852707_1607151509630038_6173876227435305148_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=6fzxhxK72AgAX9EBNKe&_nc_ht=scontent.fdad1-1.fna&oh=00_AT9KCpsnT9AiYCYXUTcyE0izBjr67IPWHilaW18bbSC7Ww&oe=61D96DEE",
-            description: "Website to support high school learning",
-            // links: [
-            //     {
-            //         link: "https://github.com/TonTon69/React-setting-text-color",
-            //         type: "github",
-            //     },
-            //     {
-            //         link: "https://github.com/TonTon69/React-setting-text-color",
-            //         type: "web",
-            //     },
-            // ],
+            description:
+                "Language used: Jquery, Pug, Scss, Nodejs, Expressjs, MongoDB, Socket.io, Cloudinary.",
+            links: [
+                {
+                    href: "https://github.com/TonTon69/Education-Nodejs",
+                    icon: <GitHubIcon />,
+                },
+                {
+                    href: "https://www.hutech.edu.vn/homepage/tin-tuc/hoat-dong-sinh-vien/14599017-chung-ket-tim-kiem-tai-nang-cong-nghe-thong-tin-trien-lam-hoanh-trang-cua-nhung-du-an-cong-nghe-trien-vong",
+                    icon: <LanguageIcon />,
+                },
+            ],
         },
     ],
 };

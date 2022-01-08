@@ -15,7 +15,7 @@ export default function Header() {
             </div>
             <svg viewBox="0 0 900 100" className={styles.svgText}>
                 <symbol id="h-text">
-                    <text text-anchor="middle" x="50%" y="50%" dy=".35em">
+                    <text textAnchor="middle" x="50%" y="50%" dy=".35em">
                         {resumeData.name}
                     </text>
                 </symbol>

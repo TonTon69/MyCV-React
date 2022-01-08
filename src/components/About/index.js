@@ -1,6 +1,7 @@
 import styles from "./About.module.scss";
 import Heading from "../../components/Heading";
 import resumeData from "../../utils/resumeData";
+import HoangImg from "../../assets/images/minhhoang.png";
 
 export default function About() {
     return (
