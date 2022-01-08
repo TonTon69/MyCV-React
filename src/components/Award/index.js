@@ -18,6 +18,7 @@ export default function Award() {
                             <ImgWrapper
                                 image={award.image}
                                 bg={award.bgImgWrapper}
+                                title={award.title.slice(0, 1)}
                             />
                             <div className={styles.itemInfo}>
                                 <h3>{award.title}</h3>

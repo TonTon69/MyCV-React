@@ -36,26 +36,39 @@
             .header {
                 display: flex;
                 flex-shrink: 0;
+                height: 60px;
                 align-items: center;
                 justify-content: space-between;
-                padding: 20px;
-                border-bottom: 1px solid #3b3d3e;
+                padding: 0 20px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
                 .title {
-                    font-size: 18px;
+                    font-size: 20px;
                     font-weight: 600;
-                    line-height: 1.5;
+                    line-height: 1.6;
+
+                    @media (max-width: 1024px) {
+                        font-size: 16px;
+                    }
                 }
 
                 .close {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    border-radius: 50%;
+                    width: 36px;
+                    height: 36px;
                     color: #aaaaaa;
-                    font-size: 30px;
+                    font-size: 34px;
+                    font-weight: 300;
                     cursor: pointer;
 
                     &:hover,
                     &:focus {
-                        opacity: 0.8;
-                        text-decoration: none;
+                        background-color: rgba(255, 255, 255, 0.2);
                     }
                 }
             }
@@ -81,12 +94,13 @@
 
             .actions {
                 display: flex;
+                height: 60px;
                 flex-wrap: wrap;
                 flex-shrink: 0;
                 align-items: center;
                 justify-content: center;
-                padding: 20px;
-                border-top: 1px solid #3b3d3e;
+                padding: 0 20px;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
 
                 a {
                     color: #fff;

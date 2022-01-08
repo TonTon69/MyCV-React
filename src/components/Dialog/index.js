@@ -21,9 +21,9 @@ export default function Dialog({ show, onClose }) {
                 <div className={styles.content}>
                     <div className={styles.header}>
                         <h5 className={styles.title}>{show.title}</h5>
-                        <span className={styles.close} onClick={onClose}>
-                            &times;
-                        </span>
+                        <div className={styles.close} onClick={onClose}>
+                            <span>&times;</span>
+                        </div>
                     </div>
                     <div className={styles.body}>
                         <img src={show.image} alt={show.title} />
