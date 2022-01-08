@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MyCV-React/static/css/main.5df7a1f9.css",
-    "main.js": "/MyCV-React/static/js/main.e86331dc.js",
+    "main.css": "/MyCV-React/static/css/main.501e6fe5.css",
+    "main.js": "/MyCV-React/static/js/main.a5a4427f.js",
     "static/js/787.09d4b756.chunk.js": "/MyCV-React/static/js/787.09d4b756.chunk.js",
     "static/media/reading_astronaut.png": "/MyCV-React/static/media/reading_astronaut.47d3299a2c8f53335ea1.png",
     "static/media/astronaut_moon.png": "/MyCV-React/static/media/astronaut_moon.7b684dc3be3c9232e308.png",
     "static/media/icon-heart.png": "/MyCV-React/static/media/icon-heart.fff1933a0d1e89d29971.png",
     "index.html": "/MyCV-React/index.html",
-    "main.5df7a1f9.css.map": "/MyCV-React/static/css/main.5df7a1f9.css.map",
-    "main.e86331dc.js.map": "/MyCV-React/static/js/main.e86331dc.js.map",
+    "main.501e6fe5.css.map": "/MyCV-React/static/css/main.501e6fe5.css.map",
+    "main.a5a4427f.js.map": "/MyCV-React/static/js/main.a5a4427f.js.map",
     "787.09d4b756.chunk.js.map": "/MyCV-React/static/js/787.09d4b756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5df7a1f9.css",
-    "static/js/main.e86331dc.js"
+    "static/css/main.501e6fe5.css",
+    "static/js/main.a5a4427f.js"
   ]
 }
