@@ -1,6 +1,11 @@
 .wrapper {
+    position: relative;
     background-color: #0e0c28;
     padding: 50px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     h3 {
         font-size: 40px;
