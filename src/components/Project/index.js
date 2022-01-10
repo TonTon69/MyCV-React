@@ -14,7 +14,9 @@ export default function Project() {
                 <Heading
                     first={"m"}
                     second={"y best projects"}
-                    bg={"linear-gradient(to right bottom, #6723c5, #d23ff0)"}
+                    bg={
+                        "linear-gradient(to right bottom,rgb(51, 202, 248),rgb(51, 137, 248))"
+                    }
                 />
                 <div className={styles.content}>
                     {resumeData.projects.map((project, index) => (

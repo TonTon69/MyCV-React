@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: #141523;
+    padding: 50px 0;
+
+    .container {
+        max-width: 1440px;
+        padding: 0 50px;
+        margin: 0 auto;
+
+        .content {
+            position: relative;
+            padding-top: 40px;
+        }
+    }
+}

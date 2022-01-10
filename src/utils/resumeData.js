@@ -42,4 +42,18 @@ export default {
             bgImgWrapper: "linear-gradient(to right bottom, #33cdf9, #2979ff)",
         },
     ],
+    careers: [
+        {
+            name: "hutech-er",
+            dateTop: "20",
+            dateBottom: "18",
+            display: "right",
+        },
+        {
+            name: "hutech-er",
+            dateTop: "20",
+            dateBottom: "22",
+            display: "left",
+        },
+    ],
 };
