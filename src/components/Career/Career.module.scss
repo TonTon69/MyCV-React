@@ -7,6 +7,10 @@
         padding: 0 50px;
         margin: 0 auto;
 
+        @media (max-width: 1024px) {
+            padding: 0 20px;
+        }
+
         .content {
             position: relative;
             padding-top: 40px;

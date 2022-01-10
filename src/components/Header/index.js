@@ -29,6 +29,10 @@ export default function Header() {
                 i am
                 <span className={styles.headingHot}> {resumeData.title}</span>
             </div>
+            <div className={styles.scroll}>
+                <span>scroll down</span>
+                <div className={styles.scrollDown}></div>
+            </div>
         </div>
     );
 }
