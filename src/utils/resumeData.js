@@ -9,7 +9,7 @@ export default {
     projects: [
         {
             title: "Website to support high school learning",
-            image: "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/p960x960/269852707_1607151509630038_6173876227435305148_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=6fzxhxK72AgAX9EBNKe&_nc_ht=scontent.fdad1-1.fna&oh=00_AT9KCpsnT9AiYCYXUTcyE0izBjr67IPWHilaW18bbSC7Ww&oe=61D96DEE",
+            image: "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/269852707_1607151509630038_6173876227435305148_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=umIeL75f150AX9_Bveb&_nc_ht=scontent.fdad1-1.fna&oh=00_AT-eN-ejPeEUen4i3UO_VGdc_eRPHQ4HiwM3fjYwnwgfvQ&oe=61E0B5EB",
             description:
                 "Language used: Jquery, Pug, Scss, Nodejs, Expressjs, MongoDB, Socket.io, Cloudinary.",
             links: [

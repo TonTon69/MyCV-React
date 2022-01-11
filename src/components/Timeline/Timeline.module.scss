@@ -4,11 +4,20 @@
     background-color: #000;
 
     .items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         margin-left: -10px;
+        margin-right: -10px;
 
         .item {
             position: relative;
             margin-bottom: 200px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
 
             &::before {
                 content: "";
@@ -71,6 +80,11 @@
             .item {
                 margin-bottom: 120px;
 
+                &::before {
+                    width: 10px;
+                    height: 10px;
+                }
+
                 .content {
                     padding: 10px;
 
@@ -81,6 +95,15 @@
 
                     .name {
                         font-size: 12px;
+                        margin-left: 10px;
+                    }
+
+                    &Right {
+                        left: 35px;
+                    }
+
+                    &Left {
+                        right: 35px;
                     }
                 }
             }
